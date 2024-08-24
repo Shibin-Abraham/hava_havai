@@ -31,9 +31,6 @@ export class City {
     @Column('float', { nullable: false })
     long?: number
 
-    @OneToMany(() => Airport, airport => airport.city)
-    airports?: Airport[]
-
     @ManyToOne(() => Country, country => country.cities)
     @JoinColumn({ name: 'country_id' })
     country?: Country

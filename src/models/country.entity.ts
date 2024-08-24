@@ -31,9 +31,6 @@ export class Country {
     @Column({ nullable: false })
     country_flag?: string
 
-    @OneToMany(() => Airport, airport => airport.country)
-    airports?: Airport[]
-
     @OneToMany(() => City, city => city.country)
     cities?: City[]
 }

@@ -19,10 +19,10 @@ export class Airport {
     @Column({ nullable: false })
     type?: string
 
-    @Column({ nullable: true })
+    @Column({ nullable: false })
     city_id?: number
 
-    @Column({ nullable: true })
+    @Column({ nullable: false })
     country_id?: number
 
     @Column({ nullable: false })
@@ -48,12 +48,4 @@ export class Airport {
 
     @Column({ nullable: true })
     wikipedia_link?: string
-
-    @ManyToOne(() => City, city => city.airports, { nullable: true })
-    @JoinColumn({ name: 'city_id' })
-    city?: City
-
-    @ManyToOne(() => Country, country => country.airports, { nullable: true })
-    @JoinColumn({ name: 'country_id' })
-    country?: Country
 }
