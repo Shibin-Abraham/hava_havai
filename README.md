@@ -11,8 +11,10 @@ The Airport Information API provides details about airports, including related c
 - Returns `null` for country if no country information is available.
 
 ```markdown
-GET > https://hava-havai-esj0.onrender.com/api/get_by/iata_code
+https://hava-havai-esj0.onrender.com/api/get_by/iata_code
 ```
 #### Example
+> [!TIP]
+> This API endpoint uses the `GET` method and returns data in JSON format.
 ```markdown
-GET > https://hava-havai-esj0.onrender.com/api/get_by/ATG
+https://hava-havai-esj0.onrender.com/api/get_by/ATG
