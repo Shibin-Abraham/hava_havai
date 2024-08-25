@@ -14,5 +14,5 @@ The Airport Information API provides details about airports, including related c
 https://hava-havai-esj0.onrender.com/api/get_by/iata_code
 ```
 ### example
-```markdown
+`- [GET]`markdown
 https://hava-havai-esj0.onrender.com/api/get_by/ATG
