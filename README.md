@@ -14,7 +14,9 @@ The Airport Information API provides details about airports, including related c
 https://hava-havai-esj0.onrender.com/api/get_by/iata_code
 ```
 #### Example
+
 > [!TIP]
 > This API endpoint uses the `GET` method and returns data in JSON format.
+
 ```markdown
 https://hava-havai-esj0.onrender.com/api/get_by/ATG
