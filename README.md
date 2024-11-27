@@ -1,4 +1,4 @@
-## Airport Information API
+# Airport Information API
 
 ### Overview
 
